@@ -15,6 +15,11 @@ namespace ConsoleApp1
         public string Appointment { get => appointment; set => appointment = value; }
         public int Appr_Price { get => appr_price; set => appr_price = value; }
         public string Name { get => name; set => name = value; }
+        
+        public Transport()
+        {
+    
+        }
 
         public Transport(string name, string appointment, int appr_price)
         {
